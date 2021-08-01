@@ -1,17 +1,16 @@
 version: '2'
 services:
   app:
-    build: .
+    image: rajunavaganesh/node-demo:latest
     environment:
-      NODE_ENV: docker
+      NODE_ENV: staging
     command: node_modules/.bin/nodemon --exec npm start
     ports:
-      - '3000:3000'
+      - '2000:2000'
     tty: true
     depends_on:
       - mongodb
     volumes:
-      - .:/home/app/node_docker
       - /home/app/node_docker/node_modules
   mongodb:
     image: mongo:3.2.5

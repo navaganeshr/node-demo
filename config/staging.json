@@ -8,6 +8,6 @@
       "port": 27017,
       "dbName": "development"
     },
-    "port": 3000
+    "port": 2000
   }
 }
