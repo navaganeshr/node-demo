@@ -4,7 +4,7 @@
       "enabled": false
     },
     "database": {
-      "url": "mongodb://localhost",
+      "url": "mongodb://mongodb",
       "port": 27017
     },
     "port": 2000
