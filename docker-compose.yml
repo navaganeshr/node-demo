@@ -10,8 +10,6 @@ services:
     tty: true
     depends_on:
       - mongodb
-    volumes:
-      - /home/app/node_docker/node_modules
   mongodb:
     image: mongo:3.2.5
     ports:
