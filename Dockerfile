@@ -7,4 +7,4 @@ WORKDIR $HOME/node_docker
 RUN npm install --silent --progress=false
 EXPOSE 2000
 COPY . $HOME/node_docker
-
+CMD ["npm", "start"]
