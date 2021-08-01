@@ -5,8 +5,7 @@
     },
     "database": {
       "url": "mongodb://localhost",
-      "port": 27017,
-      "dbName": "development"
+      "port": 27017
     },
     "port": 2000
   }
